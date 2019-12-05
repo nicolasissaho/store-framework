@@ -42,10 +42,19 @@
     "props": {
       "src": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square6.png"
     }
-  }
-  "image#brand6": {
+  },
+  "slider-layout#main3": {
+    "children": ["info-card#button-right", "info-card#button-left"],
     "props": {
-      "src": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square6.png"
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": false
+      },
+      "itemsPerPage": {
+        "desktop": 1,
+        "phone": 1
+      },
+      "infinite": true
     }
-  }
+  },
 }
