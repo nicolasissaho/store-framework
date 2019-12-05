@@ -3,7 +3,7 @@
     "blocks": [
       "info-card#button-right",
       "info-card#button-left",
-      "flex-layout.row#home"
+      "flex-layout.row"
     ]
   },
   "rich-text": {
@@ -40,13 +40,13 @@
           "blockClass": "metal"
       }
   },
-  "flex-layout.row#home":{
+  "flex-layout.row":{
       "children": [
         "info-card#button-right",
-        "flex-layout.col#home"
+        "flex-layout.col"
       ]
     },
-    "flex-layout.col#home":{
+    "flex-layout.col":{
         "children": [
           "image#electronics",
           "image#major-appliance"
