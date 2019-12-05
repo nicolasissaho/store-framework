@@ -21,20 +21,6 @@
       "infinite": true
     }
   },
-  "slider-layout#main2": {
-    "children": ["info-card#button-right", "info-card#button-left"],
-    "props": {
-      "autoplay": {
-        "timeout": 5000,
-        "stopOnHover": false
-      },
-      "itemsPerPage": {
-        "desktop": 1,
-        "phone": 1
-      },
-      "infinite": true
-    }
-  },
   "rich-text": {
     "props": {
       "text": "**Hello, World!**",
