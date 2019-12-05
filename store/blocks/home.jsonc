@@ -1,25 +1,10 @@
 {
   "store.home": {
     "blocks": [
-      "slider-layout#main",
       "flex-layout.row",
       "shelf",
       "slider-layout#home"
     ]
-  },
-  "slider-layout#main": {
-    "children": ["info-card#button-right", "info-card#button-left"],
-    "props": {
-      "autoplay": {
-        "timeout": 5000,
-        "stopOnHover": false
-      },
-      "itemsPerPage": {
-        "desktop": 1,
-        "phone": 1
-      },
-      "infinite": true
-    }
   },
   "rich-text": {
     "props": {
